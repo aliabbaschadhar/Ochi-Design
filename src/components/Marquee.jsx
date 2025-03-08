@@ -10,7 +10,7 @@ function Marquee() {
                     <motion.h1
                         // TODO: Add animation
                         key={index}
-                        className="text-[20vw] leading-none font-founders uppercase mb-2"
+                        className="text-[20vw] leading-none font-founders uppercase mb-[1vw]"
                     >
                         {text}
                     </motion.h1>
