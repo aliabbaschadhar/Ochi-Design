@@ -1,6 +1,6 @@
 import Navbar from "./Navbar";
 import LandingPage from "./LandingPage";
-
+import Marquee from "./Marquee";
 
 
 
@@ -8,4 +8,5 @@ import LandingPage from "./LandingPage";
 export {
     Navbar,
     LandingPage,
+    Marquee
 }
