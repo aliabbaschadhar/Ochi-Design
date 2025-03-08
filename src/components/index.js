@@ -5,9 +5,7 @@ import LandingPage from "./LandingPage";
 
 
 
-
 export {
     Navbar,
     LandingPage,
-
 }
