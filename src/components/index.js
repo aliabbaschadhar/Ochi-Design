@@ -5,6 +5,7 @@ import About from "./About";
 import Eyes from "./Eyes";
 import EyeBall from "./EyeBall";
 import Featured from "./Featured";
+import Card from "./Card";
 
 
 export {
@@ -15,5 +16,6 @@ export {
     Eyes,
     EyeBall,
     Featured,
+    Card,
 
 }
