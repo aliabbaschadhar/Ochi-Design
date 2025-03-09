@@ -8,13 +8,14 @@ function LandingPage() {
                 {
                     ["We create", "Eye-Opening", "Presentations"]
                         .map((item, index) => (
-                            <div className='masker'>
-                                <div className='w-fit flex items-end overflow-hidden '>
+                            <div key={index} className='masker'>
+                                <div
+                                    className='w-fit flex items-end overflow-hidden '
+                                >
 
                                     {index === 1 && (<div className='mr-[1vw] w-[8vw] rounded-md h-[5.7vw]'></div>)}
 
                                     <h1
-                                        key={index}
                                         className='uppercase text-[7.5vw] leading-[6.5vw] tracking-tight font-founders'
                                     >
                                         {item}
