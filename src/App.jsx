@@ -1,4 +1,4 @@
-import { LandingPage, Navbar, Marquee, About, Eyes, Featured } from "./components"
+import { LandingPage, Navbar, Marquee, About, Eyes, Featured, Cards } from "./components"
 
 export default function App() {
   return (
@@ -9,6 +9,7 @@ export default function App() {
       <About />
       <Eyes />
       <Featured />
+      <Cards />
     </div>
   )
 }
