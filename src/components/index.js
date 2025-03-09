@@ -3,6 +3,7 @@ import LandingPage from "./LandingPage";
 import Marquee from "./Marquee";
 import About from "./About";
 import Eyes from "./Eyes";
+import EyeBall from "./EyeBall";
 
 
 export {
@@ -11,5 +12,5 @@ export {
     Marquee,
     About,
     Eyes,
-
+    EyeBall,
 }
