@@ -14,7 +14,7 @@ function About() {
                     </button>
                 </div>
                 <div className='w-1/2 h-[70vh] mr-20'>
-                    <img className='w-full bg-cover rounded-3xl' src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="" />
+                    <img className='w-full bg-cover rounded-3xl' src="https://ochi.design/wp-content/uploads/2022/05/Homepage-Photo-1326x939.jpg" alt="Ochi Design team collaborating on a project in an office environment" />
                 </div>
             </div>
         </div>

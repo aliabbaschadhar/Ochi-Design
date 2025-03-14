@@ -19,7 +19,8 @@ function Featured() {
                         <div className=' card w-full h-full rounded-xl overflow-hidden'>
                             <img
                                 className='w-full h-full bg-cover'
-                                src="https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-1326x1101.png" alt=""
+                                src="https://ochi.design/wp-content/uploads/2025/02/Salience_Website_cover-1326x1101.png"
+                                alt="Salience Labs project showcase featuring their branding and presentation design"
                             />
                         </div>
                     </div>
@@ -36,7 +37,8 @@ function Featured() {
                         <div className='card w-full h-full rounded-xl overflow-hidden'>
                             <img
                                 className='w-full h-full bg-cover'
-                                src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1326x1101.png" alt=""
+                                src="https://ochi.design/wp-content/uploads/2024/08/CS_Website_1-1326x1101.png"
+                                alt="Cardboard Spaceship project presentation featuring their creative design work"
                             />
                         </div>
                     </div>
