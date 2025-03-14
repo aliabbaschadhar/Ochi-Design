@@ -1,3 +1,5 @@
+// eslint-disable-next-line no-unused-vars
+import { motion } from 'framer-motion';
 import React from 'react'
 import { FaArrowUpLong } from 'react-icons/fa6';
 
@@ -13,7 +15,14 @@ function LandingPage() {
                                     className='w-fit flex items-end overflow-hidden '
                                 >
 
-                                    {index === 1 && (<div className='mr-[1vw] w-[8vw] rounded-md h-[5.7vw]'></div>)}
+                                    {index === 1 && (
+                                        <motion.div
+                                            className='mr-[1vw] w-[8vw] rounded-md h-[5.7vw] bg-red-500'
+                                            initial={{ width: 0 }}
+                                            animate={{ width: "8vw" }}
+                                            transition={{ ease: [0.85, 0, 0.15, 1], duration: 1.2, delay: 0.5 }}
+                                        ></motion.div>
+                                    )}
 
                                     <h1
                                         className='uppercase text-[7.5vw] leading-[6.5vw] tracking-tight font-founders'

@@ -6,7 +6,7 @@ import Eyes from "./Eyes";
 import EyeBall from "./EyeBall";
 import Featured from "./Featured";
 import Cards from "./Cards";
-
+import Footer from "./Footer";
 
 export {
     Navbar,
@@ -17,5 +17,5 @@ export {
     EyeBall,
     Featured,
     Cards,
-
+    Footer,
 }
