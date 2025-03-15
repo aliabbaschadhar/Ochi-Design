@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import { motion, useAnimation } from 'framer-motion';
 
 function Featured() {
